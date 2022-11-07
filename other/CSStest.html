@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        position: relative;
+    }
+    header {
+        font-family: Georgia, serif;
+        font-size: 25px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        font-weight: normal;
+        text-decoration: none;
+        font-style: normal;
+        font-variant: small-caps;
+        background-color: rgb(1, 1, 28); 
+        color: aliceblue;
+    }
+    h1 {
+        float: left;
+    }
+    header div {
+        float: right;
+    }
+    .phone {
+        margin-right: 50px;
+    }
+    header img {
+        width: 100%;
+    }
+    nav {
+        background-color: 	#f9cf95;
+        text-align: center;
+        font-family: Georgia, serif;
+        line-height: 30px;
+        font-weight: bolder;
+        font-size: larger;
+        padding: 20px;
+        
+    }
+    nav img {
+        border-radius: 10%;
+        border: 5px double #156d84;
+    }
+    .column {
+        justify-content: space-between;
+        width: 33%;
+    }
+    .row {
+        display: flex;
+    }
+</style>
+<body>
+    <header><h1>Bear's Home</h1><br>
+        <div class="order">ORDERS</div><br>
+        <div class="email">bearshome@gmail.com</div>
+        <div class="phone">0904056292</div>
+        <img src="/img/header.jpeg" alt="no img">
+    </header>
+    <nav>
+        <div class="row">
+            <div class="column">
+                <a href="#1">
+                    <img src="/img/croissant.jpg" alt="" width="400px"><br>Crossont
+                </a>
+            </div>
+            <div class="column">
+                <a href="#2">
+                    <img src="/img/cake.jpg" alt="" width="478px"><br>Cake
+                </a>
+            </div>
+            <div class="column">
+                <a href="#3">
+                    <img src="/img/18.jpg" alt="" width="400px"><br>Soft Cake
+                </a>
+            </div>
+        </div>
+    </nav>
+    
+</body>
+</html>
